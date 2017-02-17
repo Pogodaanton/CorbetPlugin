@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/home/pogodaanton/workspace/spigot_server.jar"/>
+	<classpathentry kind="lib" path="/home/pogodaanton/workspace/server/plugins/Skywarstest.jar"/>
+	<classpathentry kind="lib" path="/home/pogodaanton/workspace/worldedit-bukkit-6.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/pogodaanton/workspace/server/plugins/BedwarsRel.jar"/>
+	<classpathentry kind="src" path="/PitchOut-NoBungee"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
