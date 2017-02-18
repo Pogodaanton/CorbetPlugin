@@ -6,6 +6,7 @@
 	<classpathentry kind="lib" path="/home/pogodaanton/workspace/server/plugins/Skywarstest.jar"/>
 	<classpathentry kind="lib" path="/home/pogodaanton/workspace/worldedit-bukkit-6.1.3.jar"/>
 	<classpathentry kind="lib" path="/home/pogodaanton/workspace/server/plugins/BedwarsRel.jar"/>
+	<classpathentry kind="lib" path="/home/pogodaanton/workspace/server/plugins/PermissionsEx.jar"/>
 	<classpathentry kind="src" path="/PitchOut-NoBungee"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

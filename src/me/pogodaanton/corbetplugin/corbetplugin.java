@@ -41,6 +41,7 @@ import me.pogodaanton.corbetplugin.commands.TpaCmd;
 import me.pogodaanton.corbetplugin.commands.TpacceptCmd;
 import me.pogodaanton.corbetplugin.commands.TpdenyCmd;
 import me.pogodaanton.corbetplugin.configs.spawn;
+import me.pogodaanton.corbetplugin.listeners.AsyncChatListener;
 import me.pogodaanton.corbetplugin.listeners.CommandPreprocessListener;
 import me.pogodaanton.corbetplugin.listeners.DungeonChestListener;
 import me.pogodaanton.corbetplugin.listeners.JumpListener;
@@ -89,6 +90,7 @@ public class corbetplugin extends JavaPlugin {
 		Bukkit.getPluginManager().registerEvents(new DungeonChestListener(), this);
 		Bukkit.getPluginManager().registerEvents(new JumpListener(), this);
 		Bukkit.getPluginManager().registerEvents(new SpawnListeners(), this);
+		Bukkit.getPluginManager().registerEvents(new AsyncChatListener(), this);
 		
 		// Command blocking
 		getServer().getPluginManager().registerEvents(new CommandPreprocessListener(this), this);
