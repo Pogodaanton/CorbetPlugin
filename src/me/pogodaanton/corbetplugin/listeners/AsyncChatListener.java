@@ -1,5 +1,6 @@
 package me.pogodaanton.corbetplugin.listeners;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -25,7 +26,7 @@ public class AsyncChatListener implements Listener {
 			}
 			PermissionUser usr = PermissionsEx.getUser(e.getPlayer());
 			String pre = usr.getPrefix();
-			String msg = pre + " " + e.getPlayer().getName() + " §7- §r" + m;
+			String msg = ChatColor.translateAlternateColorCodes('&', pre) + " " + e.getPlayer().getName() + " §7- §r" + m;
 			p.sendMessage(msg);
 		}
 	}
